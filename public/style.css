@@ -1,0 +1,381 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #FFF;
+  font-weight: normal;
+  position: relative;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #bc9a5a;
+}
+h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #141414;
+}
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #bc9a5a;
+  padding: 30px 0px 0px 0px;
+}
+h4 {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  position: relative;
+}
+h5 {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+p {
+  font-weight: 400;
+  color: #6f6f6f;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+article {
+  padding-top: 20px;
+  font-weight: 400;
+  color: #6f6f6f;
+  line-height: 30px;
+  width: 95%;
+  padding-left: 2.5%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #141414;
+}
+.hero_image {
+  width: 100%
+}
+.flex_box {
+    flex: 1;
+}
+
+/*Nav Styling*/
+header {
+  width: 100%;
+  background-color: #292c2f;
+  text-align: center;
+}
+.logo_top {
+  padding: 10px;
+}
+.logo_left {
+  padding-right: 10px;
+  width: 180px;
+  display: none;
+}
+.logo_left:hover {
+  background: none;
+}
+nav {
+  margin: 0px; 
+  height: 34px;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  width: 140px;
+  margin:-4px 0px 0px 0px;
+}
+nav ul li:hover {
+  background: #202325;
+}
+nav ul li:hover a {
+  color: #fff;
+}
+nav ul li a {
+  display: block; 
+  padding: 11px 14px ;
+  color: #fff; 
+  text-decoration: none;
+}
+.dropdown {
+  display: none;
+  padding-top: 4px;
+  background: #292c2f; 
+  color: #fff;
+  top: 100%;
+}
+.dropdown li {
+  float: none; 
+  width: 140px;
+}
+.dropdown li a {
+  padding: 10px;
+  color: #fff;
+} 
+.dropdown li a:hover {
+  background: #202325;
+}
+.current a {
+  color: #bd9b5a !important;
+}
+.current a:hover {
+  color: #fff !important;
+}
+
+/*General elements*/
+.primary {
+  width: 100%;
+  float:left;
+  padding-bottom: 50px;
+  padding-right: 20px;
+}
+.icon_img_size {
+  padding: 5px 20px 5px 0px;
+  width: 30px;
+}
+.hotel_box {
+  margin-top: 50px;
+  width: 80%;
+  min-width: 190px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #cfcfcf;
+}
+.hotel_img {
+  width: 100%;
+  clip-path: polygon(0 0, 0 80%, 100% 100%, 100% 0);
+}
+.hotel_box .price {
+  background-color: transparent;
+  color: #141414;
+  font-size: 50px;
+  line-height: 35px;
+  font-weight: 0;
+  text-align: center;
+}
+.hotel_box .price .currency {
+  font-size: 18px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+.hotel_box .price .hotel_rate_type {
+  font-size: 13px;
+  font-style: italic;
+  color: #141414;
+  padding-left: 5px;
+}
+.hotel_box .hotel_item {
+  color: #6f6f6f;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  font-size: 12px;
+}
+.hotel_box hr {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partner {
+  width: 50%;
+  padding-top: 15px;
+}
+.awards {
+  border: solid 1px #cfcfcf;
+  min-width: 270px;
+  width: 55%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.awards p {
+  padding: 6px;
+}
+.awards_year {
+  background: #bd9b5a;
+  padding: 15px;
+}
+.team_award h1, .male_award h1, .female_award h1{
+  background: #cfcfcf;
+  padding: 10px; 
+}
+.male_award {
+  width: 50%;
+  float:left;
+}
+.female_award {
+  width: 50%;
+  float: right;
+}
+.recognition {
+  padding-top: 60px;
+  text-align: center;
+  width:100%;
+}
+.recognition img {
+  width: 30%;
+  margin: auto;
+}
+
+/*Footer*/
+footer {
+  color: #636363;
+  font-size: 12px;
+  margin-top: 30px;
+  width: 100%;
+}
+.footer_top {
+  background-color: #292c2f;
+  width: 100%
+}
+.footer_left, .footer_right {
+  display: inline-block;
+  vertical-align: top;
+  padding: 60px 30px 10px 30px;
+}
+/* Footer left */
+.footer_left {
+  width: 40%;
+}
+/* Footer Right */
+.footer_top .footer_right {
+  width: 20%;
+  float: right;
+}
+.footer_top li {
+  line-height: 30px;
+}
+.footer_top a {
+  color: #636363;
+}
+.footer_top a:hover {
+  color: #bd9b5a;
+}
+.footer_top p {
+  line-height: 24px;
+  padding-top: 20px;
+}
+.footer_links {
+  margin-bottom: 20px;
+}
+.links_title span{
+  padding-bottom: 5px;
+  border-bottom: 3px solid #bd9b5a;
+}
+.footer_bottom {
+  background-color: #202020;
+}
+.footer_bottom img {
+  padding: 5px 10px 5px 10px;
+  width: 30px;
+}
+.footer_bottom .right_align_img {
+  float:right;
+}
+
+/*Responsiveness*/
+.responsive_quarter_box {
+  width: 49%;  
+  display: inline-block;
+  vertical-align: top; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.clear {
+  clear: both;
+}
+@media (max-width:550px){
+  .responsive_quarter_box {
+    width: 99%;
+  }
+}
+@media (max-width: 700px) {
+  nav {
+    /*TODO Deal with mobile screen size*/
+    display: none;
+  }
+  .footer_top .footer_left {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+  .footer_top .footer_right {
+    display: block;
+    width: 100%;
+    float: center;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+}
+@media (min-width:890px){
+  .logo_left {
+    display: block;
+  }
+  .logo_top {
+    display: none;
+  }
+  .primary {
+    width: 70%;
+    float:left;
+  }
+}
+@media (min-width:1050px){
+  .responsive_quarter_box {
+    width: 24%;
+  }
+
+}
+
+/*External element styling*/
+#map {
+  height: 350px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 2.5%;
+  width: 95%;
+  height: 95%;
+  margin-left: auto
+}
